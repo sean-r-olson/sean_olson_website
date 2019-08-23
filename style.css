@@ -1,0 +1,176 @@
+body {
+   background-image: url(http://www.perini.com.au/images/0/0/lifestyle-las-vegas-floors-3.jpg);
+   background-color: #d6c7c7;
+}
+
+.container {
+  font-family: 'Major Mono Display', monospace;
+  border-style: solid;
+  min-width: 100%;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0; 
+  height: 100px;
+}
+
+.title1 {
+  width: 33%;
+  text-align: right;
+  font-size: 20px;
+  color: black;
+  background-color: #B4D7A2;
+  margin-bottom: 0px;
+  padding: 3px 10px;
+
+}
+
+.title2 {
+  width: 33%;
+  color: #B4D7A2;
+  background-color: black;
+}
+
+.title3 {
+  width: 33%;
+  color: #B4D7A2;
+  background-color: black; 
+}
+
+h4 {
+  text-align: center;
+  color: #B4D7A2;
+  background-color: black;
+  margin: 0px;
+  padding: 25px 10px;
+}
+
+/* .skillsContainer {
+
+} */
+
+.skillsProficient {
+  float: left;
+}
+
+/* .skillsFamiliar {
+} */
+
+.skill1 {
+  display: inline-flex;
+
+}
+
+.skill2 {
+  display: inline-flex;
+
+}
+
+.skill3 {
+  display: inline-flex;
+
+}
+
+.skill4 {
+  display: inline-flex;
+  float: right;
+  margin-right: 50px;
+}
+
+.intro {
+  display: flex;
+  flex: wrap;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 150px 20px 150px;
+  padding: 5px;
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  background-color: #ffdab9;
+}
+
+.signature {
+  display: flex;
+  flex: wrap;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: -25px;
+}
+
+.face {
+  box-shadow: 0px 0px 15px 0px;
+  margin: 10px;
+}
+
+.skillsContainer {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  margin: 10px 200px 20px 200px;
+  padding: 10px;
+  background-color:	rgb(252, 124, 117);
+}
+
+.experience {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  margin: 10px 400px 10px 10px ;
+  padding: 10px;
+  background-color: #aec6cf;
+}
+
+.title {
+  border-bottom-style: solid;
+}
+
+.details {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.community-involvement {
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  margin: 10px 10px 10px 400px;
+  padding: 10px;
+  background-color: #D0C9EA;
+}
+
+.education {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  margin: 10px 200px 10px 200px;
+  padding: 10px;
+  background-color: #FFF0AE;
+}
+
+.references {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  margin: 20px 380px 20px 380px;
+  padding: 10px;
+  background-color: #D0C9EA;
+}
+
+.educationDate {
+  float: right;
+}
+
+hr {
+  background-color: black;
+  border: solid 1px black;
+}
