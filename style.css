@@ -174,3 +174,11 @@ hr {
   background-color: black;
   border: solid 1px black;
 }
+
+.face {
+  min-width:160px;
+  max-width: 160px;
+  min-height:230px; 
+  max-height: 230px;
+  float:right;
+}
