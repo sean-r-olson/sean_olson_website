@@ -139,6 +139,52 @@ h4 {
   background-color:	rgb(252, 124, 117);
 }
 
+.myWork {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  margin: 20px;
+  padding: 10px;
+  background-color:	rgb(238, 159, 227);
+}
+
+.myWorkTitle {
+  font-family: 'Roboto Mono', monospace;
+  margin: 20px 20px 0px 20px;
+}
+
+.thirdHalfUnderline {
+  margin: 10px 20px 0px 20px;
+  border: solid 2px black;
+}
+
+.thirdHalfTitle {
+  font-family: 'Roboto Mono', monospace;
+  margin: 20px 400px 10px 20px;
+  color: white;
+}
+
+.thirdHalf {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  margin: 10px 330px 10px 10px;
+  padding: 10px;
+  background-color: #485aa2;
+}
+
+.thirdHalfDescription {
+  margin: 10px 20px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+
+.screenshot {
+  width: 800px;
+  height: 392px; 
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .experience {
   font-family: 'Roboto Mono', monospace;
   border-style: solid;
@@ -225,7 +271,8 @@ hr {
   width: 50px;
   height: 50px;
   margin: 0px;
-  padding-top: 10px;}
+  padding-top: 10px;
+}
 
 
 
