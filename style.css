@@ -138,7 +138,7 @@ h4 {
   box-shadow: 10px 10px;
   margin: 10px 200px 20px 200px;
   padding: 10px;
-  background-color:	rgb(252, 124, 117);
+  background-color:	#EDBBB4;
 }
 
 .myWork {
@@ -148,13 +148,13 @@ h4 {
   width: 1180px;
   margin: 20px;
   padding: 10px;
-  background-color:	rgb(99, 64, 95);
+  background-color: #351431;
 }
 
 .myWorkTitle {
   font-family: 'Roboto Mono', monospace;
   margin: 20px 20px 0px 20px;
-  color: white;
+  color: rgb(234, 231, 240);
 }
 
 .thirdHalfUnderline {
@@ -165,7 +165,7 @@ h4 {
 .myWorkAppTitle {
   font-family: 'Roboto Mono', monospace;
   margin: 15px;
-  color: white;
+  color: rgb(234, 231, 240);
 }
 
 .myWorkCards {
@@ -223,15 +223,16 @@ h4 {
 
 .experience {
   font-family: 'Roboto Mono', monospace;
-  border-style: solid;
-  box-shadow: 10px 10px;
+  color: black;
+  border: solid black;
+  box-shadow: 10px 10px black;
   margin: 10px 400px 10px 10px ;
   padding: 10px;
-  background-color: #aec6cf;
+  background-color: rgb(228, 130, 106);
 }
 
 .title {
-  border-bottom-style: solid;
+  border-bottom: solid black;
 }
 
 .details {
@@ -256,16 +257,17 @@ h4 {
   box-shadow: 10px 10px;
   margin: 10px 200px 10px 200px;
   padding: 10px;
-  background-color: #D0C9EA;
+  background-color: #FCDE9C;
 }
 
 .education {
   font-family: 'Roboto Mono', monospace;
-  border-style: solid;
-  box-shadow: 10px 10px;
+  border: solid black 3px;
+  color: black;
+  box-shadow: 10px 10px black;
   margin: 20px 10px 10px 400px;
   padding: 10px;
-  background-color: #FFF0AE;
+  background-color: #8FA998;
 }
 
 .references {
