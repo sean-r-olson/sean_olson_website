@@ -388,6 +388,7 @@ hr {
 @media only screen and (min-width: 375px) and (min-height: 812px) {
   .container {
     font-family: 'Major Mono Display', monospace;
+    font-size: 20px;
     min-width: 1024px;
     display: flex;
     flex: wrap;
@@ -395,12 +396,20 @@ hr {
     position: sticky;
     top: 0; 
     z-index: 1;
-    height: 100px;
+    min-height: 250px;
     border: solid 2px black;
   }
   body {
-    width: 1200px;
+    width: 1220px;
  }
+ .title1 {
+  width: 33%;
+  text-align: right;
+  font-size: 40px;
+  color: black;
+  background-color: #B4D7A2;
+  padding: 3px 10px;
+}
 }
 /* iPad  */
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
