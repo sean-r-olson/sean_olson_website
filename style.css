@@ -165,7 +165,7 @@ h4 {
 
 .myWorkAppTitle {
   font-family: 'Roboto Mono', monospace;
-  margin: 15px;
+  text-align: center;
   color: rgb(234, 231, 240);
 }
 
@@ -340,9 +340,10 @@ hr {
 
 
 .hvr-grow {
-  margin-top: 20px;
-  margin-left: 35px;
-  margin-bottom: 20px;
+  float: right;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
   display: inline-block;
   vertical-align: middle;
   transform: translateZ(0);
@@ -359,6 +360,52 @@ hr {
   transform: scale(1.1);
 }
 
+.hvr-grow-kp {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  width: 200px; 
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  float: left;
+}
+
+.hvr-grow-kp:hover,
+.hvr-grow-kp:focus,
+.hvr-grow-kp:active {
+  transform: scale(1.1);
+}
+
+.hvr-grow-feedback {
+  margin-top: -10px;
+  margin-left: 360px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  float: left;
+}
+
+.hvr-grow-feedback:hover,
+.hvr-grow-feedback:focus,
+.hvr-grow-feedback:active {
+  transform: scale(1.1);
+}
+
+.otherwork {
+  display: inline-block;
+}
 
 /* Galaxy S5 */
 /* @media only screen and (min-width: 360px) and (min-height: 640px) {
@@ -491,5 +538,64 @@ hr {
 .face {
   box-shadow: 0px 0px 15px 0px;
   margin: 55px 20px;
+}
+
+.myWork {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  width: 90%;
+  margin-left: 50px;
+  background-color: #351431;
+  height: 485px;
+}
+
+.myWorkTitle {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  margin: 5px 20px 0px 20px;
+  color: rgb(234, 231, 240);
+}
+
+.myWorkAppTitle {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: rgb(234, 231, 240);
+}
+
+/* .myWorkCards {
+  font-family: 'Roboto Mono', monospace;
+  border: solid black 2px;
+  background-color: #485aa2;
+  width: 520px;
+  height: 330px;
+  display: inline-block;
+} */
+
+.myWorkCards:hover {
+  border: solid white 2px;
+}
+
+.myWorkDescription {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+.screenshot {
+  width: 275px;
+  height: 135px; 
+  margin-left: 5px;
+  margin-right: 5px;
+  border: solid 1px white;
+}
+.mobilescreenshot {
+  float: left;
+  width: 175px;
+  height: 355px; 
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -10px;
+}
+.otherwork {
+  display: inline-block;
 }
 }
