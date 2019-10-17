@@ -159,7 +159,7 @@ h4 {
 }
 
 .thirdHalfUnderline {
-  margin: 10px 20px 0px 20px;
+  margin: 10px 20px -10px 20px;
   border: solid 2px black;
 }
 
@@ -342,7 +342,8 @@ hr {
 .hvr-grow {
   float: right;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 0px;
   margin-bottom: 0px;
   display: inline-block;
   vertical-align: middle;
@@ -361,8 +362,8 @@ hr {
 }
 
 .hvr-grow-kp {
-  margin-top: 0px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
   margin-bottom: 0px;
   margin-right: 0px;
   width: 200px; 
@@ -401,6 +402,10 @@ hr {
 .hvr-grow-feedback:focus,
 .hvr-grow-feedback:active {
   transform: scale(1.1);
+}
+
+.websites { 
+  margin: 10px;
 }
 
 .otherwork {
@@ -583,8 +588,6 @@ hr {
 .screenshot {
   width: 275px;
   height: 135px; 
-  margin-left: 5px;
-  margin-right: 5px;
   border: solid 1px white;
 }
 .mobilescreenshot {
@@ -598,4 +601,9 @@ hr {
 .otherwork {
   display: inline-block;
 }
+
+.websites {
+  margin-right: 100px;
+}
+
 }
