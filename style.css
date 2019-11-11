@@ -4,11 +4,11 @@ body {
    width: 100%;
 }
 
-#work {color: #fff; background-color: #1E88E5;}
+/* #work {color: #fff; background-color: #1E88E5;}
 #skills {color: #fff; background-color: #673ab7;}
 #experience {color: #fff; background-color: #ff9800;}
 #education {color: #fff; background-color: #00bcd4;}
-#community {color: #fff; background-color: #009688;}
+#community {color: #fff; background-color: #009688;} */
 
 /* .container {
   font-family: 'Major Mono Display', monospace;
@@ -46,11 +46,12 @@ a:hover {
 }
 
 .title1 {
-  width: 33.3%;
+  width: 34%;
   text-align: right;
   font-size: 20px;
   color: black;
   background-color: #B4D7A2;
+  padding-right: 10px;
 }
 
 .name {
@@ -177,7 +178,7 @@ h4 {
   text-align: center;
   color: rgb(234, 231, 240);
 }
-
+/* 
 .myWorkCards {
   font-family: 'Roboto Mono', monospace;
   border: solid black 2px;
@@ -187,7 +188,7 @@ h4 {
   width: 520px;
   height: 330px;
   display: inline-block;
-}
+} */
 
 .myWorkCards:hover {
   border: solid white 2px;
@@ -317,7 +318,7 @@ hr {
 
 .title2GitHub:hover {
   border-bottom: solid white 10px;
-  padding-bottom: 23px;
+  padding-bottom: 15px;
   margin-right: 50px;
 }
 
@@ -329,7 +330,7 @@ hr {
 
 .title2LinkedIn:hover {
   border-bottom: solid white 10px;
-  padding-bottom: 23px;
+  padding-bottom: 15px;
 }
 
 .githublogo {
@@ -354,7 +355,7 @@ hr {
   margin-right: 20px;
   margin-left: 0px;
   margin-bottom: 0px;
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -415,10 +416,6 @@ hr {
 
 .websites { 
   margin: 10px;
-}
-
-.otherwork {
-  display: inline-block;
 }
 
 /* Galaxy S5 */
@@ -598,6 +595,7 @@ hr {
   width: 275px;
   height: 135px; 
   border: solid 1px white;
+    /* display: inline-block; */
 }
 .mobilescreenshot {
   float: left;
@@ -606,9 +604,6 @@ hr {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: -10px;
-}
-.otherwork {
-  display: inline-block;
 }
 
 .websites {
